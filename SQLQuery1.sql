@@ -41,6 +41,7 @@ create table Paquete(
 Codigo int identity (1,1) primary key not null,
 NombreP nvarchar (15) not null,
 FechaE datetime not null,
+Provincia nvarchar (25) not null
 )
 
 create table Remitente(
